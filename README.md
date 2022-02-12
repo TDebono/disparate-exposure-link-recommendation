@@ -1,5 +1,3 @@
 # [WIP] thesis-opinion-dynamics
 
-Investigating how opinions diffuse over a dynamic social network and whether there exist differences in visibility across groups defined by protected attributes.
-
-something link reco
+Investigating how link recommendation algorithms affect opinion diffusion over a dynamic social network and whether there exists a disparity in opinion visibility across different (possibly minority) groups.
