@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 from operator import itemgetter
 import os
+import igraph as ig
+import networkx as nx
+import config
 
 def load_profile_data(dir_string):
 
@@ -29,3 +32,33 @@ def profile_data_to_df(profile_array, replace_null_strings=True):
         profile_df.replace(-999999, np.nan, inplace=True)
     
     return profile_df
+
+def load_graph_data(path, package='igraph'):
+    packages = ['igraph', 'networkx']
+    assert package in packages
+    
+    if package == 'networkx':
+        graph = nx.DiGraph()
+        with open(path) as f:
+            [graph.add_edge(*(int(vert) for vert in line.rstrip().split())) for line in f]
+    
+    if package == 'igraph':
+        graph = ig.Graph(directed=True)
+        graph.add_vertices(config.NUM_NODES)
+        with open(path) as f:
+            [graph.add_edge(*(int(vert) for vert in line.rstrip().split())) for line in f]
+    return graph
+
+def read_ncol_graph():
+    graph = ig.Graph(directed=True)
+    g = graph.Read_Ncol(config.GRAPH_PATH, names=True, directed=True)
+    return g
+
+def write_pkl_graph(graph, file_name: str):
+    graph.write_pickle(config.ROOT + file_name)
+    print("Successfully serialized graph!")
+
+def read_pkl_graph(file_name: str):
+    _graph = ig.Graph(directed=True)
+    Graph = _graph.Read_Pickle(config.ROOT + file_name)
+    return Graph
