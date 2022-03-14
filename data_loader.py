@@ -14,7 +14,7 @@ def load_profile_data(dir_string):
     COL_INDICES = [0, 3, 7]
         
     for profile_data_file in os.listdir(directory):
-        with open(dir_string + (str(profile_data_file)[2:-1])) as f:
+        with open(dir_string + (str(profile_data_file)[2:-1]), encoding='utf8') as f:
             for line in f:
                 profile_array.append(itemgetter(*COL_INDICES)(line.split("\t")))
     
