@@ -10,7 +10,7 @@ from collections import Counter
 ################################################################
 # Constants
 ################################################################
-CLASS = 'gender'
+CLASS = 'gender' # example
 LABELS = [0,1] # 0 majority, 1 minority
 GROUPS = ['M', 'm']
 
