@@ -10,13 +10,10 @@ from collections import Counter
 ################################################################
 # Constants
 ################################################################
-CLASS = 'gender'
+CLASS = 'class'
 LABELS = [0,1] # 0 majority, 1 minority
-GROUPS = ['M', 'F']
+GROUPS = ['M', 'm']
 
-# CLASS = 'gender'
-# LABELS = [0,1] # 0 majority, 1 minority
-# GROUPS = ['M', 'm']
 
 ################################################################
 # Functions
