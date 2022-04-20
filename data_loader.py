@@ -58,7 +58,10 @@ def write_pkl_graph(graph, file_name: str):
     graph.write_pickle(config.ROOT + file_name)
     print("Successfully serialized graph!")
 
-def read_pkl_graph(file_name: str):
-    _graph = ig.Graph(directed=True)
-    Graph = _graph.Read_Pickle(config.ROOT + file_name)
+def read_pkl_graph(file_name: str, package='networkx'):
+    if package == 'igraph':
+        _graph = ig.Graph(directed=True)
+        Graph = _graph.Read_Pickle(config.ROOT + file_name)
+    if package == 'networkx':
+        Graph = nx.read_gpickle(config.ROOT + file_name)
     return Graph
