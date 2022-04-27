@@ -10,7 +10,7 @@ from collections import Counter
 ################################################################
 # Constants
 ################################################################
-CLASS = 'gender'
+CLASS = 'class_'
 LABELS = [0,1] # 0 majority, 1 minority
 GROUPS = ['M', 'm']
 EPSILON = 0.00001
