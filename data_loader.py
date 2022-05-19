@@ -33,7 +33,7 @@ def profile_data_to_df(profile_array, replace_null_strings=True):
     
     return profile_df
 
-def load_graph_data(path, package='igraph'):
+def load_graph_data(path, package='igraph', ig_vnum=500000):
     packages = ['igraph', 'networkx']
     assert package in packages
     
@@ -44,7 +44,7 @@ def load_graph_data(path, package='igraph'):
     
     if package == 'igraph':
         graph = ig.Graph(directed=True)
-        # graph.add_vertices(config.NUM_NODES)
+        graph.add_vertices(ig_vnum)
         with open(path) as f:
             [graph.add_edge(*(int(vert) for vert in line.rstrip().split())) for line in f]
     return graph
