@@ -4,7 +4,9 @@ Mean stats and standard deviation for 5 runs
 
 Added Nodes Min/Maj Fraction
 ---------------------------
-Avg. share of min: 0.42359% (0.07385)Avg. share of maj: 99.57641% (0.07385)
+Avg. share of min: 0.42359% (0.07385)
+Avg. share of maj: 99.57641% (0.07385)
+
 Top 10 Minority Fraction Recommendations
 ---------------------------
 Avg. minority fraction among Top 10 Recommendations: 0.36842% (0.02298)
