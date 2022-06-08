@@ -9,52 +9,52 @@ Avg. share of min: 100.0% (0.0)
 
 Top 10 Minority Fraction Recommendations
 ---------------------------
-Avg. minority fraction among Top 10 Recommendations: 99.99895% (0.00129)
+Avg. minority fraction among Top 10 Recommendations: 100.0% (0.0)
 
 Edge types
 ---------------------------
-mm: 18.99442% (0.37494)
+mm: 20.3332% (0.63069)
 mM: 0.0% (0.0)
 MM: 0.0% (0.0)
-Mm: 81.00558% (0.37494)
+Mm: 79.6668% (0.63069)
 
 DC Changes
 ---------------------------
-Majority: -5.51678 (0.24254)
-Minority: 0.54168 (0.02381)
+Majority: -5.20358 (0.21729)
+Minority: 0.51093 (0.02134)
 
 BC Changes
 ---------------------------
-Majority: -4.24247 (0.8529)
-Minority: -2.86885 (0.28916)
+Majority: -2.90059 (1.7235)
+Minority: -2.62944 (0.55058)
 
 CC Changes
 ---------------------------
-Majority: 0.84679 (0.02982)
-Minority: 0.65973 (0.04027)
+Majority: 1.83637 (0.02319)
+Minority: 1.62091 (0.05081)
 
 EVC Changes
 ---------------------------
-Majority: 1.04431 (0.56009)
-Minority: 3.69331 (0.51811)
+Majority: 3.08111 (0.71061)
+Minority: 4.58071 (0.84757)
 
 Norm EVC Changes
 ---------------------------
-Majority: -2.45434 (0.93834)
-Minority: 0.09859 (0.03769)
+Majority: -1.3781 (0.27456)
+Minority: 0.05536 (0.01103)
 
 PR Changes
 ---------------------------
-Majority: -3.07154 (0.97771)
-Minority: 0.80687 (0.25684)
+Majority: -1.87877 (0.49122)
+Minority: 0.49354 (0.12904)
 
 Clustering Coeff Changes
 ---------------------------
-Majority: 5.87349 (1.1263)
-Minority: 7.8081 (0.92718)
+Majority: 12.41719 (0.99718)
+Minority: 15.13648 (0.3806)
 
 Avg. Shortest Path Changes
 ---------------------------
-Majority: -3.26612 (0.2607)
-Minority: -3.29103 (0.27272)
+Majority: -2.75449 (0.77187)
+Minority: -2.75657 (0.74364)
 
