@@ -4,57 +4,57 @@ Mean stats and standard deviation for 10 runs
 
 Added Nodes Min/Maj Fraction
 ---------------------------
-Avg. share of maj: 50.57769% (2.87695)
-Avg. share of min: 49.42231% (2.87695)
+Avg. share of maj: 48.70252% (2.86775)
+Avg. share of min: 51.29748% (2.86775)
 
 Top 10 Minority Fraction Recommendations
 ---------------------------
-Avg. minority fraction among Top 10 Recommendations: 50.59262% (2.92562)
+Avg. minority fraction among Top 10 Recommendations: 51.87761% (2.98928)
 
 Edge types
 ---------------------------
-mm: 45.25048% (2.97353)
-mM: 1.52541% (0.81986)
-MM: 49.05228% (3.07308)
-Mm: 4.17183% (0.62421)
+mm: 46.85971% (3.04571)
+mM: 1.49152% (0.71876)
+MM: 47.21099% (2.61072)
+Mm: 4.43778% (1.05223)
 
 DC Changes
 ---------------------------
-Majority: -0.07159 (0.14899)
-Minority: 0.27773 (0.1908)
+Majority: -0.14319 (0.09287)
+Minority: 0.42241 (0.19876)
 
 BC Changes
 ---------------------------
-Majority: -0.70888 (0.45075)
-Minority: -1.12445 (2.04942)
+Majority: -0.30082 (0.73363)
+Minority: -0.36716 (1.09333)
 
 CC Changes
 ---------------------------
-Majority: 0.06959 (0.24689)
-Minority: -0.00478 (0.09852)
+Majority: 0.10657 (0.28866)
+Minority: 0.03016 (0.13176)
 
 EVC Changes
 ---------------------------
-Majority: 1.46694 (2.37941)
-Minority: 1.8184 (1.4317)
+Majority: 0.0331 (2.13846)
+Minority: 1.91059 (1.40808)
 
 Norm EVC Changes
 ---------------------------
-Majority: -0.28522 (1.35103)
-Minority: 0.06928 (0.32815)
+Majority: -1.48956 (1.49231)
+Minority: 0.3618 (0.36247)
 
 PR Changes
 ---------------------------
-Majority: -0.4672 (0.36818)
-Minority: 0.70346 (0.3634)
+Majority: -1.1727 (1.05384)
+Minority: 1.52832 (1.11774)
 
 Clustering Coeff Changes
 ---------------------------
-Majority: 2.45267 (0.98949)
-Minority: 2.41376 (1.14886)
+Majority: 1.84581 (0.53863)
+Minority: 1.97114 (0.90956)
 
 Avg. Shortest Path Changes
 ---------------------------
-Majority: -0.78273 (0.90224)
-Minority: -0.67235 (0.91259)
+Majority: -0.45372 (0.48029)
+Minority: 0.07667 (0.43061)
 
