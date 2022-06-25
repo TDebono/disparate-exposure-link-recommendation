@@ -12,5 +12,5 @@ This work investigates the effect of SALSA, a popular link recommendation algori
 
 ## Quick links
 
-- test
+- [Experiments](https://github.com/TDebono/disparate-exposure-link-recommendation/blob/0952f3dc4bac68125096dcda28a7a0a37903bed9/02_results/experiments.ipynb)
 - test
