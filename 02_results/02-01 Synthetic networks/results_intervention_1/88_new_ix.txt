@@ -1,0 +1,60 @@
+
+Mean stats and standard deviation for 5 runs
+---------------------------------------------------
+
+Added Nodes Min/Maj Fraction
+---------------------------
+Avg. share of maj: 99.97142% (0.00871)
+Avg. share of min: 0.02858% (0.00871)
+
+Top 10 Minority Fraction Recommendations
+---------------------------
+Avg. minority fraction among Top 10 Recommendations: 2.36194% (0.05099)
+
+Edge types
+---------------------------
+mm: 0.01784% (0.01123)
+mM: 20.04911% (0.35254)
+MM: 79.9223% (0.34422)
+Mm: 0.01075% (0.01434)
+
+DC Changes
+---------------------------
+Majority: 0.68588 (0.01753)
+Minority: -5.31316 (0.13581)
+
+BC Changes
+---------------------------
+Majority: -3.41694 (0.25568)
+Minority: -9.27432 (0.58833)
+
+CC Changes
+---------------------------
+Majority: 2.54897 (0.03776)
+Minority: 2.70931 (0.03213)
+
+EVC Changes
+---------------------------
+Majority: -0.3779 (2.07574)
+Minority: -8.33143 (2.09407)
+
+Norm EVC Changes
+---------------------------
+Majority: 1.6536 (0.11196)
+Minority: -6.46501 (0.43772)
+
+PR Changes
+---------------------------
+Majority: 0.68617 (0.07352)
+Minority: -6.82669 (0.73145)
+
+Clustering Coeff Changes
+---------------------------
+Majority: 61.24239 (1.49482)
+Minority: 71.45142 (2.77939)
+
+Avg. Shortest Path Changes
+---------------------------
+Majority: -3.48647 (0.14477)
+Minority: -3.51353 (0.20792)
+
