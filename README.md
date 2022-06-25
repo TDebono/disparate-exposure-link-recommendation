@@ -6,8 +6,21 @@
 
 This work investigates the effect of SALSA, a popular link recommendation algorithm, on network centrality and disparate exposure between two groups, a minority and a majority, in a network. Previous works have primarily used some notion of degree or ranking to identify exposure inequalities. It has been established, however, that degree only captures limited information with respect to nodal influence and importance in a network and, therefore, may not be a fully accurate measure when evaluating how link recommendations impact group exposure. Hence, we use three different metrics that capture more granular information. We find that two of those metrics offer different interpretations to the conclusions inferred by degree. In line with previous studies, we also find that exposure discrepancies are, among other factors, a function of in-group homophily. Lastly, we propose two intervention policies to mitigate disparate exposure effects and compare their effectiveness. We establish that, depending on the specific design, their effectiveness depends on the composition of the recommendations produced by SALSA and the fraction of minority nodes among a node's authority nodes, respectively.
 
+<!-- <figure>
+  <img
+  src="https://github.com/TDebono/disparate-exposure-link-recommendation/blob/78d4f392d275338f6bd94a1b21a452a89f333377/03_plots/03-01%20Network%20Viz/networks_plot2.png"
+  alt="Networks plot">
+  <figcaption>Plots (a) to (d) depict exemplary synthetic networks with $|V|=20$, $f_m=0.3$, and varying levels of homophily (minority nodes in blue, majority nodes in red). These networks show how the levels of homophily per group impact the edge formation process and, consequently, the network topology.</figcaption>
+</figure> -->
 
-![alt text](https://github.com/TDebono/disparate-exposure-link-recommendation/blob/main/03_plots/03-02%20Results/results_final.png?raw=true)
+<figure>
+  <img
+  src="https://github.com/TDebono/disparate-exposure-link-recommendation/blob/main/03_plots/03-02%20Results/results_final.png?raw=true"
+  alt="Results plot">
+  <figcaption>Average changes in % for centrality measures after the application of SALSA as a function of in-group homophily. The y-axis indicates the magnitude and direction of change over z=10 runs and the error bars specify the standard deviation over all runs. The x-axis shows the considered centrality measures.</figcaption>
+</figure>
+
+<!-- ![Average changes in % for centrality measures after the application of SALSA as a function of in-group homophily. The y-axis indicates the magnitude and direction of change over z=10 runs and the error bars specify the standard deviation over all runs. The x-axis shows the considered centrality measures.](https://github.com/TDebono/disparate-exposure-link-recommendation/blob/main/03_plots/03-02%20Results/results_final.png?raw=true) -->
 
 
 ## Quick links
