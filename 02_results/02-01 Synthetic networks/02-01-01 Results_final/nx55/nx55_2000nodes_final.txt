@@ -1,11 +1,11 @@
 
-Mean stats and standard deviation for 5 runs
+Mean stats and standard deviation for 10 runs
 ---------------------------------------------------
 
 Added Nodes Min/Maj Fraction
 ---------------------------
-Avg. share of maj: 83.89326% (0.40349)
-Avg. share of min: 16.10674% (0.40349)
+Avg. share of maj: 82.28355% (0.14237)
+Avg. share of min: 17.71645% (0.14237)
 
 Top 10 Minority Fraction Recommendations
 ---------------------------
@@ -20,18 +20,18 @@ Mm: 12.84164% (0.40028)
 
 DC Changes
 ---------------------------
-Majority: 0.25436 (0.02945)
-Minority: -1.05681 (0.12234)
+Majority: 0.22558 (0.0347)
+Minority: -0.9372 (0.1445)
 
 BC Changes
 ---------------------------
-Majority: -1.26551 (0.24337)
-Minority: -3.69957 (0.3305)
+Majority: -1.47461 (0.224)
+Minority: -3.39312 (0.761)
 
 CC Changes
 ---------------------------
-Majority: 1.13224 (0.03075)
-Minority: 1.20395 (0.03049)
+Majority: 1.1224 (0.022)
+Minority: 1.1822 (0.051)
 
 EVC Changes
 ---------------------------
