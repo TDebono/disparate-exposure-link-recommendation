@@ -28,3 +28,8 @@ This work investigates the effect of SALSA, a popular link recommendation algori
 - [Experiments](https://github.com/TDebono/disparate-exposure-link-recommendation/blob/0952f3dc4bac68125096dcda28a7a0a37903bed9/02_results/experiments.ipynb) - This notebook contains the code that was used to conduct all experiments
 - [Synthetic Network Data](01_data/01-02%20Synthetic%20networks/) - This folder contains the files for all synthetically generated networks used for the experiments
 - [Visualizations](03_plots/visualizations.ipynb) - This notebook contains the code that was used to generate all figures
+
+## To-do
+
+- add documentation
+- clean deprecated functions
